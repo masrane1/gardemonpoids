@@ -1,0 +1,37 @@
+name: gardemonpoids
+description: "A new Flutter project."
+publish_to: "none"
+version: 0.1.0
+
+environment:
+  sdk: ">=3.4.4 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  curved_navigation_bar: ^1.0.3
+  material: ^1.0.0+2
+  sqflite: ^2.3.3+1
+  path: ^1.8.3
+  provider: ^6.0.5
+  charts_flutter: ^0.12.0
+  line_chart: ^1.1.11
+  shared_preferences: ^2.0.14
+  carousel_slider: ^4.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+    - assets/social.png
+    - assets/icons/GARDE_MON.png
+fonts:
+  - family: Inter
+    fonts:
+      - asset: fonts/Inter-Medium.ttf
